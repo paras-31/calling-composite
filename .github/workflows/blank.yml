@@ -16,6 +16,6 @@ jobs:
 
   check-reusability-job: 
 
-    uses: paras-31/composite1/.github/workflows/blank.yml@main
+    uses: paras-31composite1/.github/workflows/blank.yml@main
   check-reusability-job2:
     uses: paras-31/composite2/.github/workflows/blank.yml@main
