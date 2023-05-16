@@ -1,0 +1,21 @@
+name: repo2 calling reusable function of repo 1 
+
+  
+
+on: 
+
+  push: 
+
+    branches: [ main ] 
+    
+  workflow_dispatch:
+
+  
+
+jobs: 
+
+  check-reusability-job: 
+
+    uses: paras-31/composite1/.github/workflows/blank.yml@main
+  check-reusability-job2:
+    uses: paras-31/composite2/.github/workflows/blank.yml@main
